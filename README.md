@@ -9,6 +9,7 @@ The chat clients should be able to:
 - receive text messages from server and show the messages to the user.
 
 ### Open separate terminals for separate chat clients.
+Compile the java-files from within src: javac *.java<br>
 
 Chat client should be able to be executed in the following three ways:
 1. java Client (default host 127.0.0.1, default port 2000)
@@ -28,11 +29,11 @@ This means that:
 - the process is somewhat slow.
 
 ### Server
-chatClientServer repository.<br>
-Connect to corresponding Server.jar to run the program.
-default port 2000:
-java -jar Server.jar
+Use the server in repository 'chatServer'.<br>
+Run the 'Server.class' and two (or more) Clent.class from this (chatClient) application.
+Connect to corresponding chatServer to run the program.
 
-Alternatively on a specific port:
-java -jar Server.jar 2001
+The Chat server can be executed in two ways:
 
+1. java Server (default port 2000)
+2. java Server <port>
