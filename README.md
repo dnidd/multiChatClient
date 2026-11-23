@@ -28,7 +28,7 @@ This means that:
 - the process is somewhat slow.
 
 ### Server
-chatClientServer repository.
+chatClientServer repository.<br>
 Connect to corresponding Server.jar to run the program.
 default port 2000:
 java -jar Server.jar
