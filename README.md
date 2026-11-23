@@ -8,7 +8,7 @@ The chat clients should be able to:
 - Send text messages to chat server.
 - receive text messages from server and show the messages to the user.
 
-### open separate terminals for separate chat clients.
+### Open separate terminals for separate chat clients.
 
 Chat client should be able to be executed in the following three ways:
 1. java Client (default host 127.0.0.1, default port 2000)
@@ -17,7 +17,7 @@ Chat client should be able to be executed in the following three ways:
 
 This means that the files are compilated to be able to execute:
 ````
-java Client <…> <…>
+java Client <> <>
 ````
 
 TCP is used for transport of data packets.
@@ -27,7 +27,8 @@ This means that:
 - the transport is safe, the packets arrive, and they are put together in the right order.
 - the process is somewhat slow.
 
-
+### Server
+chatClientServer repository.
 Connect to corresponding Server.jar to run the program.
 default port 2000:
 java -jar Server.jar

@@ -48,7 +48,6 @@ public class Client {
         else {
             System.err.println("Usage: java Client <host> <port>");
         }
-
     }
 
 }
